@@ -17,3 +17,19 @@ If the problems are more widespread and you want to change the default system sh
 
 sudo dpkg-reconfigure dash
 在弹出界面选NO
+
+
+Wierd, I run 
+sudo dpkg-reconfigure dash
+在弹出界面选YES
+
+It worked...
+
+#  Arrow keys, tab-complete not working
+
+sudo chsh -s /bin/bash <username>
+ 
+ 
+ https://askubuntu.com/questions/325807/arrow-keys-tab-complete-not-working
+ 
+ 
