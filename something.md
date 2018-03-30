@@ -33,3 +33,15 @@ sudo chsh -s /bin/bash <username>
  https://askubuntu.com/questions/325807/arrow-keys-tab-complete-not-working
  
  
+ 
+ # change the default gcc version
+ Thanks to you all for your help. I ended up just creating aliases within ~/.bash_profile as follows:
+
+alias gcc='gcc-4.8'
+alias cc='gcc-4.8'
+alias g++='g++-4.8'
+alias c++='c++-4.8'
+
+
+#  reinstall gcc
+https://gist.github.com/application2000/73fd6f4bf1be6600a2cf9f56315a2d91
