@@ -45,3 +45,31 @@ alias c++='c++-4.8'
 
 #  reinstall gcc
 https://gist.github.com/application2000/73fd6f4bf1be6600a2cf9f56315a2d91
+
+
+# source activate is not working properly
+
+# clear the content of the file by typing
+```sh
+echo $PATH
+export PATH="ONLY CONTAIN THE BASIC PATH AND REMOVE THE ANACONDA PATH"
+vi ~/.bashrc
+
+```
+
+content of the "~/.bashrc"
+```
+export PATH="/usr/local/bin:$PATH"
+export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+export PATH="~/anaconda/bin:$PATH"
+```
+
+
+```
+source ~/.bashrc
+conda env list
+conda deactivate
+conda activate
+```
+
