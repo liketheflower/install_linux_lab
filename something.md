@@ -47,6 +47,10 @@ alias c++='c++-4.8'
 https://gist.github.com/application2000/73fd6f4bf1be6600a2cf9f56315a2d91
 
 
+
+
+
+
 # source activate is not working properly
 
 # clear the content of the file by typing
@@ -82,4 +86,11 @@ git reset --hard HEAD~1
 Delete the most recent commit, without destroying the work you've done:
 
 git reset --soft HEAD~1
+
+# Asking username and password for many times
+Are you saying credential caching isn't working for you? What does git config -l | grep credential return? I think it is off by default.
+
+You can turn it on (on Linux) like so:
+
+git config --global credential.helper cache
 
