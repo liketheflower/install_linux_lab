@@ -73,3 +73,13 @@ conda deactivate
 conda activate
 ```
 
+
+# delete the local unpushed commits
+
+Delete the most recent commit:
+
+git reset --hard HEAD~1
+Delete the most recent commit, without destroying the work you've done:
+
+git reset --soft HEAD~1
+
