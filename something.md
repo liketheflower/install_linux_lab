@@ -94,3 +94,7 @@ You can turn it on (on Linux) like so:
 
 git config --global credential.helper cache
 
+# git Large file mangement
+https://github.com/git-lfs/git-lfs/wiki/Installation
+
+https://github.com/git-lfs/git-lfs
