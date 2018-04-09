@@ -77,6 +77,13 @@ conda deactivate
 conda activate
 ```
 
+sometime change the command to 
+```
+source deactivate
+source activate
+```
+will work...
+
 
 # delete the local unpushed commits
 
